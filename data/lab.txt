@@ -1,0 +1,68 @@
+Automata: '../cfpq/data/WorstCase/automata.txt'
+Graph: '../cfpq/data/WorstCase/worstcase_64.txt'
+Symbol: 2, Count: 1056
+Time: 0.250975 0.228259 0.223150 0.222909 0.223492 0.223054 0.222071 0.223301 0.221914 0.221558  Average: 0.226068s
+Graph: '../cfpq/data/WorstCase/worstcase_128.txt'
+Symbol: 2, Count: 4160
+Time: 2.001076 2.000790 2.000557 1.996046 1.995973 1.996781 1.995622 1.992619 1.999491 1.994778  Average: 1.997373s
+Graph: '../cfpq/data/WorstCase/worstcase_256.txt'
+Symbol: 2, Count: 16512
+Time: 21.966904 22.185108  Average: 22.076006s
+Automata: '../cfpq/data/RDF/automata.txt'
+Graph: '../cfpq/data/RDF/atom-primitive.txt'
+Symbol: 4, Count: 15454
+Time: 0.004642 0.004723 0.004665 0.004613 0.004618 0.004642 0.004646 0.004642 0.004661 0.004639  Average: 0.004649s
+Graph: '../cfpq/data/RDF/funding.txt'
+Symbol: 4, Count: 17634
+Time: 0.068100 0.068172 0.068303 0.068236 0.068125 0.068082 0.068263 0.068202 0.068211 0.068200  Average: 0.068189s
+Graph: '../cfpq/data/RDF/pizza.txt'
+Symbol: 4, Count: 56195
+Time: 0.042578 0.042511 0.042560 0.042566 0.042542 0.042502 0.042583 0.042526 0.042505 0.042519  Average: 0.042539s
+Graph: '../cfpq/data/RDF/biomedical-mesure-primitive.txt'
+Symbol: 4, Count: 15156
+Time: 0.006326 0.006327 0.006306 0.006341 0.006308 0.006339 0.006377 0.006316 0.006341 0.006322  Average: 0.006330s
+Graph: '../cfpq/data/RDF/generations.txt'
+Symbol: 4, Count: 2164
+Time: 0.001461 0.001403 0.001431 0.001404 0.001411 0.001405 0.001405 0.001443 0.001404 0.001399  Average: 0.001417s
+Graph: '../cfpq/data/RDF/core.txt'
+Symbol: 4, Count: 316
+Time: 0.756958 0.757025 0.757130 0.756883 0.756539 0.756855 0.756491 0.756933 0.756797 0.756871  Average: 0.756848s
+Graph: '../cfpq/data/RDF/travel.txt'
+Symbol: 4, Count: 2499
+Time: 0.002344 0.002280 0.002285 0.002295 0.002288 0.002282 0.002285 0.002302 0.002279 0.002288  Average: 0.002293s
+Graph: '../cfpq/data/RDF/univ-bench.txt'
+Symbol: 4, Count: 2540
+Time: 0.001937 0.001868 0.001908 0.001897 0.001890 0.001866 0.001894 0.001884 0.001878 0.001914  Average: 0.001894s
+Graph: '../cfpq/data/RDF/wine.txt'
+Symbol: 4, Count: 66572
+Time: 0.099114 0.099107 0.099035 0.099148 0.099098 0.099129 0.099132 0.099012 0.099091 0.099145  Average: 0.099101s
+Automata: '../cfpq/data/FullGraph/automata.txt'
+Graph: '../cfpq/data/FullGraph/fullgraph_100.txt'
+Symbol: 2, Count: 10000
+Time: 0.013149 0.013219 0.012974 0.013063 0.013135 0.013241 0.013038 0.013080 0.013001 0.013038  Average: 0.013094s
+Graph: '../cfpq/data/FullGraph/fullgraph_200.txt'
+Symbol: 2, Count: 40000
+Time: 0.064746 0.064804 0.064741 0.064568 0.064680 0.064698 0.064634 0.064681 0.064554 0.064575  Average: 0.064668s
+Graph: '../cfpq/data/FullGraph/fullgraph_500.txt'
+Symbol: 2, Count: 250000
+Time: 1.127657 1.127547 1.128933 1.128192  Average: 1.128082s
+Graph: '../cfpq/data/FullGraph/fullgraph_1000.txt'
+Symbol: 2, Count: 1000000
+Time: 15.352384 15.382410 15.385231 15.384555  Average: 15.376145s
+Automata: '../cfpq/data/MemoryAliases/automata.txt'
+Graph: '../cfpq/data/MemoryAliases/bzip2.txt'
+Symbol: 16, Count: 315
+Symbol: 2, Count: 2258
+Time: 0.516825 0.516801 0.516756 0.516847 0.516808 0.516650 0.516738 0.516858 0.516950 0.516748  Average: 0.516798s
+Graph: '../cfpq/data/MemoryAliases/ls.txt'
+Symbol: 16, Count: 854
+Symbol: 2, Count: 13051
+Time: 11.450967 11.453479 11.451206 11.453710 11.453001 11.448133 11.451212 11.450970 11.451033 11.451673  Average: 11.451538s
+Graph: '../cfpq/data/MemoryAliases/pr.txt'
+Symbol: 16, Count: 385
+Symbol: 2, Count: 3077
+Time: 1.178253 1.178351 1.182532 1.182214 1.182405 1.182245 1.181589 1.182553 1.182127 1.182442  Average: 1.181471s
+Graph: '../cfpq/data/MemoryAliases/wc.txt'
+Symbol: 16, Count: 156
+Symbol: 2, Count: 680
+Time: 0.032893 0.032859 0.032825 0.032795 0.032804 0.032812 0.032828 0.032847 0.032832 0.032832  Average: 0.032833s
