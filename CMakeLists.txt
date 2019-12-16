@@ -22,13 +22,13 @@ set(CFPQ_HEADERS
 )
 
 set(CFPQ_SOURCES
-  main.cu
-  ${CFPQ_HEADERS}
+  main/main.cu
 )
 
 include_directories("${PROJECT_SOURCE_DIR}/cuda")
 
 add_executable(
   tensor_cfpq
+  ${CFPQ_SOURCES}
   ${CFPQ_HEADERS}
 )
