@@ -1,6 +1,6 @@
 # TensorCFPQ
 
-Context free path queuing on GPGPU powered by Nvidia CUDA.
+Context free path querying on GPGPU powered by Nvidia CUDA.
 Algorithm is based on tesor (Cartesian) product of recursive
 automata for CFG and graph matrix, and trasitive clojure of
 boolean block matrices. 
