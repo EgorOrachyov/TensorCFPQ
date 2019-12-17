@@ -96,7 +96,7 @@ void test_singleAutomataIterations(const std::string &filename, const std::strin
 }
 
 void test_worstCase() {
-    std::string prefix = "../cfpq/data/";
+    std::string prifix = "../data/";
     std::string folder = "WorstCase/";
 
     const char* graphs[] = {
@@ -124,7 +124,7 @@ void test_worstCase() {
 }
 
 void test_rdf() {
-    std::string prefix = "../cfpq/data/";
+    std::string prifix = "../data/";
     std::string folder = "RDF/";
 
     const char* graphs[] = {
@@ -162,7 +162,7 @@ void test_rdf() {
 }
 
 void test_fullGraph() {
-    std::string prefix = "../cfpq/data/";
+    std::string prifix = "../data/";
     std::string folder = "FullGraph/";
 
     const char* graphs[] = {
@@ -190,7 +190,7 @@ void test_fullGraph() {
 }
 
 void test_memoryAliases() {
-    std::string prefix = "../cfpq/data/";
+    std::string prifix = "../data/";
     std::string folder = "MemoryAliases/";
 
     const char* graphs[] = {
@@ -216,7 +216,7 @@ void test_memoryAliases() {
 }
 
 void test_graphOutput() {
-    std::string prefix = "../cfpq/data/";
+    std::string prifix = "../data/";
     std::string folder = "MemoryAliases/";
     std::string folderPrefix = prefix + folder;
     std::string filename = folderPrefix + "automata.txt";
