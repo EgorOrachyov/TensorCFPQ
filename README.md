@@ -1,9 +1,8 @@
 # TensorCFPQ
 
 Context free path querying on GPGPU powered by Nvidia CUDA.
-Algorithm is based on tesor (Cartesian) product of recursive
-automata for CFG and graph matrix, and trasitive clojure of
-boolean block matrices. 
+Algorithm is based on tesor (Kronecker) product of recursive
+automata for CFG and graph matrix.
 
 Algo was originally developed by YaccConstructor [group](https://github.com/YaccConstructor).
 
