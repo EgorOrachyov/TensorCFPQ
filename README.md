@@ -13,6 +13,7 @@ build test and run on test data.
 
 ```
 $ git clone https://github.com/EgorOrachyov/TensorCFPQ.git
+$ cd TensorCFPQ
 $ mkdir build
 $ cd build
 $ cmake ..
@@ -27,7 +28,7 @@ Data for this repo test is stored in /data folder.
 
 ## Results
 
-All the test were ran on the test machine with Intel(R) Core(TM) 4 Core i7-6700 CPU @ 3.40GHz with 32129 MiB RAM and Nvidia(R) GeForce(R) GTX 1070 TI with 8110 MiB VRAM.  
+All the test were ran on the test machine with Intel(R) 4 Core i7-6700 CPU @ 3.40GHz with 32129 MiB RAM and Nvidia(R) GeForce(R) GTX 1070 TI with 8110 MiB VRAM.  
 
 Recursive automata for CFG is stored in the automata.txt file in the same folder, as the 
 test graphs group data. CFGs were converted manually. Original CFGs are in CNF or EBNF form. 
